@@ -1,0 +1,22 @@
+{
+  "name": "thp_dev_w3d3_weather-api-javascript",
+  "version": "1.0.0",
+  "description": "## The today exercice's aim is to provide weather information website rhtough this API https://www.weatherbit.io/api/weather-current",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ju777/THP_dev_w3d3_meteo-API-Javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ju777/THP_dev_w3d3_meteo-API-Javascript/issues"
+  },
+  "homepage": "https://github.com/Ju777/THP_dev_w3d3_meteo-API-Javascript#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
