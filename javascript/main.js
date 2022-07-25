@@ -321,10 +321,15 @@ whatIsTheWather = async (city) => {
 
 weatherToHTML = (weather) => {
     let html = `
-        <div>
-            <p>On ${weather.data[0].ob_time} in ${weather.data[0].city_name}, the weather is :</p>
+        <div class="p-3">
+            <!-- Première façon pour obtenir les icônes (en ligne) -->
+            <img height="50" width="50" alt="weather icone" src="https://www.weatherbit.io/static/img/icons/${weather.data[0].weather.icon}.png"> 
+            <!-- 2e façon (en local) 
+            <img height="50" width="50" alt="weather icone" src="../images/${weather.data[0].weather.icon}.png" /> -->
+                       
             <h3>${weather.data[0].weather.description.toLowerCase()}</h3>
-            <h3>${weather.data[0].weather.icon}</h3>
+            <p>${weather.data[0].city_name}, ${weather.data[0].ob_time}</p>
+
         </div> 
         `
     // console.log(html);
